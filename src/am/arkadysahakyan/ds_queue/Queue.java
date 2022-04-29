@@ -49,6 +49,7 @@ public class Queue {
     }
 
     public void printContent() {
+        if (isEmpty()) return;
         if (head < tail) {
             for (int i = head; i < tail; i++) {
                 System.out.println(queue[i]);
