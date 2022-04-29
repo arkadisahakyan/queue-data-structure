@@ -1,5 +1,8 @@
 package am.arkadysahakyan.ds_queue;
 
+/**
+ * @author Arkady Sahakyan
+ */
 public class Queue {
     private int[] queue;
     private int head;
