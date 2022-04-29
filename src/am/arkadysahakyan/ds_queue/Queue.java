@@ -37,6 +37,9 @@ public class Queue {
     }
 
     public int size() {
+        if (head != -1) {
+            return head < tail ? tail - head : (queue.length - head) + tail;
+        }
         return 0;
     }
 
